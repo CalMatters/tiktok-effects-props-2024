@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "674c8991-9268-906e-ef3a-47c795669f1a",
+      "b": ""
+    },
+    "extraType": "ResItemGif",
+    "name": "quiz-title-card1",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "GifAsset",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

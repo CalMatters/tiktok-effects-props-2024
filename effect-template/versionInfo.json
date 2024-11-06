@@ -1,0 +1,18 @@
+{
+  "version": "4.4.1",
+  "handlers": {
+    "ComponentsCompatibilityHandler": {
+      "Transform": "2f91ec751391c0d8b5d698e286f891ed",
+      "Camera": "6c15527321cd6d2f396f968d191a3dd0",
+      "EffectNode": "6bc7cd5b83ea8f776f325b41e995f88d",
+      "DirectionalLight": "ef18955537902d318b25333b9e7b53f1",
+      "EnvironmentLighting": "36cc82e07d59f32be0156b863ff6348e",
+      "ScreenTransform": "c1409ba5f1ba1ade7da4588e253e7595",
+      "Image": "23265603292c3aebd68a3d2c0fa14ab3",
+      "BoxCollider": "2c63de87d6097f339c00aabf8419a886",
+      "TextJS": "9916ace3faa5164145ed9c62a5adc2fb",
+      "FaceCapture": "b74f7d42deb8d49399a6ee3c67426493",
+      "MeshRenderer": "65e0665a074c1baa30c2886b52d02aeb"
+    }
+  }
+}

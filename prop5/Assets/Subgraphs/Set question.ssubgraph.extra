@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "8f197e1d-aa24-f3d6-e9c4-d784e668877d",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Set question",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "fec52877-c1ad-1725-5860-73ab1e680f10",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "OpposeResults",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

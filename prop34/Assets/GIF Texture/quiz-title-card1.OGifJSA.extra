@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "8bb83939-6465-9c35-59f3-0718fa05b1d0",
+      "b": ""
+    },
+    "extraType": "JSAssetGif",
+    "name": "quiz-title-card1",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

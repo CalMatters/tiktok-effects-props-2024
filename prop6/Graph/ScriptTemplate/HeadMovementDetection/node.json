@@ -1,0 +1,135 @@
+{
+	"name": "Head Movement Detection",
+	"id": "3cc2fd30-e892-479c-b98c-5911c8ffa1c2",
+	"inputs": [
+		{
+			"name": "Detect",
+			"description": "The head to be detected. “Head 0” detects the first head that appears in the scene, “Head 4” detects the fifth head that appears in the scene. “Any” represents any head in the scene.",
+			"type": "String",
+			"value_list": [
+				"Head 0",
+				"Head 1",
+				"Head 2",
+				"Head 3",
+				"Head 4",
+				"Any"
+			],
+			"displayType": "String",
+			"nameKey": "graph_head_movement_detection_input_detect",
+			"descriptionKey": "graph_head_movement_detection_input_detect_description",
+			"displayTypeKey": "graph_type_string",
+			"value_list_i18n_keys": [
+				"graph_head_movement_detection_input_detect_valueList_head0",
+				"graph_head_movement_detection_input_detect_valueList_head1",
+				"graph_head_movement_detection_input_detect_valueList_head2",
+				"graph_head_movement_detection_input_detect_valueList_head3",
+				"graph_head_movement_detection_input_detect_valueList_head4",
+				"graph_head_movement_detection_input_detect_valueList_any"
+			]
+		},
+		{
+			"name": "Head Movement",
+			"description": "The movement the detected head makes: Head Shake, Head Nod, Tilt Right, and Tilt Left",
+			"type": "String",
+			"value_list": [
+				"Head Shake",
+				"Head Nod",
+				"Tilt Right",
+				"Tilt Left"
+			],
+			"displayType": "String",
+			"nameKey": "graph_head_movement_detection_input_headmovement",
+			"descriptionKey": "graph_head_movement_detection_input_headmovement_description",
+			"displayTypeKey": "graph_type_string",
+			"value_list_i18n_keys": [
+				"graph_head_movement_detection_input_headmovement_valueList_headshake",
+				"graph_head_movement_detection_input_headmovement_valueList_headnod",
+				"graph_head_movement_detection_input_headmovement_valueList_tiltright",
+				"graph_head_movement_detection_input_headmovement_valueList_tiltleft"
+			],
+			"isContentFeature": true
+		}
+	],
+	"outputs": [
+		{
+			"name": "Begin",
+			"description": "Executes the next node when the movement starts",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_head_movement_detection_output_begin",
+			"descriptionKey": "graph_head_movement_detection_output_begin_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Stay",
+			"description": "Continue executing the next node while the movement is in progress",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_head_movement_detection_output_stay",
+			"descriptionKey": "graph_head_movement_detection_output_stay_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "End",
+			"description": "Executes the next node when the movement stops",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_head_movement_detection_output_end",
+			"descriptionKey": "graph_head_movement_detection_output_end_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "None",
+			"description": "Continue executing the next node when the selected head movement is not detected",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_head_movement_detection_output_none",
+			"descriptionKey": "graph_head_movement_detection_output_none_description",
+			"displayTypeKey": "graph_type_exec"
+		}
+	],
+	"scriptAPIVersion": "1.0.0",
+	"js": "CGHeadMovementDetection.js",
+	"category": "Head & Face",
+	"version": "1.1.0",
+	"nodeEvent": [
+		"onUpdate",
+		"resetOnRecord"
+	],
+	"description": "Detects the head movement in the scene",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"graphAlgorithms": [
+		"faceDetect"
+	],
+	"extraAlgorithms": [
+		{
+			"port": 1,
+			"values": [
+				"Head Shake"
+			],
+			"algorithms": [
+				"faceDetectShakeHead"
+			]
+		},
+		{
+			"port": 1,
+			"values": [
+				"Head Nod"
+			],
+			"algorithms": [
+				"faceDetectNodHead"
+			]
+		}
+	],
+	"onlineWebsite": "graph_head_movement_detection_website",
+	"nameKey": "graph_head_movement_detection_name",
+	"categoryKey": "graph_category_headface",
+	"descriptionKey": "graph_head_movement_detection_description",
+	"contentFeature": [
+		"HeadMovement"
+	]
+}

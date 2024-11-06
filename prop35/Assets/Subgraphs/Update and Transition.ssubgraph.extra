@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "b819969c-50aa-2957-0558-0886a9c51588",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Update and Transition",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

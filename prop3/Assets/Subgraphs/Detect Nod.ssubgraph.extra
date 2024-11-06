@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "cf8fedd1-21a7-cd84-2b22-54dbaf257d11",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Detect Nod",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

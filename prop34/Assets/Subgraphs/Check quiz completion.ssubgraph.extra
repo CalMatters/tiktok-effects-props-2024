@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "1a57977c-df71-0598-1906-07850b33a185",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Check quiz completion",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

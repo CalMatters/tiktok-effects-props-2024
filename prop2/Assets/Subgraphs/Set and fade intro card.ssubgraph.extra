@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0ca0ad9e-05ef-a899-f4be-8d2917506eed",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Set and fade intro card",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

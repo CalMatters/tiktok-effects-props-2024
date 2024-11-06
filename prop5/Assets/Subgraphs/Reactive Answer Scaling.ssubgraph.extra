@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "d52f502b-890e-bf31-ae4b-12304906fe34",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Reactive Answer Scaling",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

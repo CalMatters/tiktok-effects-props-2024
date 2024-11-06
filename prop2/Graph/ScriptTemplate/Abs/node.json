@@ -1,0 +1,48 @@
+{
+	"name": "Abs",
+	"id": "6633e5f8-7e03-1fd6-efb0-47ba55b1b237",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "0",
+			"dynamic": true,
+			"description": "The input value",
+			"displayType": "Number",
+			"nameKey": "graph_abs_input_a",
+			"descriptionKey": "graph_abs_input_a_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Abs",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The absolute value of the input",
+			"displayType": "Number",
+			"nameKey": "graph_abs_output_abs",
+			"descriptionKey": "graph_abs_output_abs_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"scriptAPIVersion": "1.0.0",
+	"js": "CGAbs.js",
+	"version": "1.0.2",
+	"category": "Math",
+	"description": "Calculate the absolute (positive) value of the input.",
+	"supportedValueTypes": [
+		"Double",
+		"Int"
+	],
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nameKey": "graph_abs_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_abs_description"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0252f7f3-46db-7829-af26-580e39d66dc4",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Raycast Object Picker",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

@@ -1,0 +1,123 @@
+{
+	"name": "For Loop",
+	"id": "a87c44a8-e95b-48e9-5ea4-014a2a2d03ea",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_input_enter",
+			"descriptionKey": "graph_for_loop_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Break",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that ends current loop",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_input_break",
+			"descriptionKey": "graph_for_loop_input_break_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "i =",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "0",
+			"range": [
+				[
+					-100000,
+					100000,
+					1
+				]
+			],
+			"description": "The initial index of the loop",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_input_i",
+			"descriptionKey": "graph_for_loop_input_i_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "i <",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "5",
+			"range": [
+				[
+					-100000,
+					100000,
+					1
+				]
+			],
+			"description": "Keep looping if i is smaller than this number",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_input_i_1",
+			"descriptionKey": "graph_for_loop_input_i_1_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Step",
+			"type": "Int",
+			"item_type": "",
+			"default_value": "1",
+			"description": "The incremental value for each iteration",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_input_step",
+			"descriptionKey": "graph_for_loop_input_step_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the loop has completed",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_output_next",
+			"descriptionKey": "graph_for_loop_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Body",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node in each iteration",
+			"displayType": "Exec",
+			"nameKey": "graph_for_loop_output_body",
+			"descriptionKey": "graph_for_loop_output_body_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Index",
+			"type": "Int",
+			"item_type": "",
+			"description": "The current index of the loop",
+			"displayType": "Number",
+			"nameKey": "graph_for_loop_output_index",
+			"descriptionKey": "graph_for_loop_output_index_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"scriptAPIVersion": "1.0.0",
+	"js": "CGForLoop.js",
+	"scriptUpdate": [
+		{"majorVersion": 1.0, "scriptAPIVersion": "1.0.0",
+	"js": "CGForLoop_v1.js"}
+	],
+	"version": "2.0.0",
+	"nodeEvent": "resetOnRecord",
+	"category": "Control",
+	"description": "Execute a loop in one frame for each index between the first index and the last index.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nameKey": "graph_for_loop_name",
+	"categoryKey": "graph_category_control",
+	"descriptionKey": "graph_for_loop_description"
+}

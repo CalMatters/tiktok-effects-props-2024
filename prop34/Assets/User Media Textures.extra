@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "f61286eb-40a5-f1e1-4914-cd3a2633cd8d",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "User Media Textures",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

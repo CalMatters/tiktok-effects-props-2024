@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "65e54570-79ec-9773-a453-851538ce181e",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Update score",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

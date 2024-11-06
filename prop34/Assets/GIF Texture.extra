@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "ebd4bdf6-3800-c51b-b48b-1af683b99e19",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "GIF Texture",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

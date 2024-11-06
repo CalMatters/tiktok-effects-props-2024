@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "c74016e6-931c-82dd-7aa5-da68628f3943",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Flip to next question",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

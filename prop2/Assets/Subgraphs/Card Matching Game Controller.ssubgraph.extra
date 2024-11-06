@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "5dcde221-dcc0-d939-bb8a-207cefd878f5",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Card Matching Game Controller",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

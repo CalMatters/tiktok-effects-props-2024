@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "eb74aa7e-e28a-f16f-5278-1324759ce3f8",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Flip end card",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "588c9271-b12c-f490-6be5-1633d8d669f7",
+      "b": ""
+    },
+    "extraType": "ResItemComponentGraph",
+    "name": "Tap",
+    "expandInPanel": true,
+    "version": "0.0.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "assetPackageID": "7412915014136446977",
+    "resourceFilePath": "/Users/moal/Library/Application Support/EffectHouse/package/7412915014136446977/Tap.compgraph"
+  }
+]

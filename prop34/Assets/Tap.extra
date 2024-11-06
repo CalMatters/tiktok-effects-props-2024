@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "a3456182-72d3-f81f-0090-d5c957ff7cb3",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Tap",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

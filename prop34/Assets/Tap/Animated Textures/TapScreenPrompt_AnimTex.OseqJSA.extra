@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "c6cd08eb-12ba-0858-9653-f7109512dbec",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "TapScreenPrompt_AnimTex",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7412915014136446977",
+    "resourceFilePath": "/Users/moal/Library/Application Support/EffectHouse/package/7412915014136446977/Animated Textures/TapScreenPrompt_AnimTex.OseqJSA"
+  }
+]

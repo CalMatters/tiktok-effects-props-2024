@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "13f69dd1-d95d-4be5-1071-242633ae1c70",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "quiz-question-card-transition",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512
+  }
+]

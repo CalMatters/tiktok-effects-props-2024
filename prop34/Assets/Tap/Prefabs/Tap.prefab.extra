@@ -1,0 +1,366 @@
+[
+  {
+    "guid": {
+      "a": "f1dad989-00b8-9762-9f5b-c05fff1e9077",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Tap",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "1.0.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "relatedResourceGuids": [
+      "588c9271-b12c-f490-6be5-1633d8d669f7",
+      "c6cd08eb-12ba-0858-9653-f7109512dbec"
+    ],
+    "data": [
+      {
+        "guid": {
+          "a": "e0dfe3e5-2f21-b11c-59cb-a31e8cf9861d",
+          "b": ""
+        },
+        "objGuid": "Guid(15728959179165571960, 15027444243051881088)",
+        "extraType": "Entity",
+        "name": "Tap",
+        "rttiType": "SceneObject",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": false,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "isHeadBindingRenderRoot": false
+      },
+      {
+        "guid": {
+          "a": "06744102-b397-9695-c5a6-23ac0995e40e",
+          "b": ""
+        },
+        "objGuid": "Guid(90185700870085382, 12829510246964439433)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ],
+        "linkage": 0
+      },
+      {
+        "guid": {
+          "a": "79c007f1-c2ab-4ff1-bc62-ab2b9702ef37",
+          "b": ""
+        },
+        "objGuid": "Guid(16879859282730509587, 16995461833773567659)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "linkageSize": 0,
+        "horizontalConstraint": 2,
+        "verticalConstraint": 2,
+        "linkageScale": 0,
+        "inspectorUICtx": "{}"
+      },
+      {
+        "guid": {
+          "a": "7c94ad96-659b-f4f5-f9e8-9ee3bf64e001",
+          "b": ""
+        },
+        "objGuid": "Guid(12846150116870724653, 11026708277015728780)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ],
+        "linkage": 0
+      },
+      {
+        "guid": {
+          "a": "24813766-dcf2-77df-c492-4de6ec80ea4a",
+          "b": ""
+        },
+        "objGuid": "Guid(10108288346533456830, 8634795607956988333)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "linkageSize": 0,
+        "horizontalConstraint": 2,
+        "verticalConstraint": 2,
+        "linkageScale": 0,
+        "inspectorUICtx": "{}"
+      },
+      {
+        "guid": {
+          "a": "606af39f-d9a5-95a3-fd89-e3fc2139473a",
+          "b": ""
+        },
+        "objGuid": "Guid(164361661397256414, 8953962985913178024)",
+        "extraType": "ScreenTransform",
+        "name": "ScreenTransform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "linkageSize": 0,
+        "horizontalConstraint": 2,
+        "verticalConstraint": 2,
+        "linkageScale": 0,
+        "inspectorUICtx": "{}"
+      },
+      {
+        "guid": {
+          "a": "831e7d35-25ca-a928-cd4f-a0726ac27263",
+          "b": ""
+        },
+        "objGuid": "Guid(15872604652425420062, 13341320645259299238)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ],
+        "linkage": 0
+      },
+      {
+        "guid": {
+          "a": "1bc611d2-5b93-61fc-012b-b521dc0e03c1",
+          "b": ""
+        },
+        "objGuid": "Guid(5424492165817540184, 662352127293125822)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.3.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "enableMask": false,
+        "maskTexture": "00000000-0000-0000-0000-000000000802",
+        "isAnimatorBound": false
+      },
+      {
+        "guid": {
+          "a": "e467122c-08b5-95c6-8666-1cce3b90bfc1",
+          "b": ""
+        },
+        "objGuid": "Guid(8957236067351661170, 13563898678261399686)",
+        "extraType": "Entity",
+        "name": "Tap",
+        "rttiType": "SceneObject",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": false,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "isHeadBindingRenderRoot": false
+      },
+      {
+        "guid": {
+          "a": "e91ed9c4-4397-b2cc-9b65-7df06d8c60c5",
+          "b": ""
+        },
+        "objGuid": "Guid(2686290364261423588, 12072900536354620564)",
+        "extraType": "Entity",
+        "name": "Tap",
+        "rttiType": "SceneObject",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_utility",
+        "isHeadBindingRenderRoot": false
+      },
+      {
+        "guid": {
+          "a": "5875e60d-d204-04d5-ad32-5c208a2d7987",
+          "b": ""
+        },
+        "objGuid": "Guid(12845002881626341284, 3870548701200665510)",
+        "extraType": "TextJS",
+        "name": "TextJS",
+        "rttiType": "JSScriptComponent",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "inspectorUICtx": "{}"
+      },
+      {
+        "guid": {
+          "a": "93334a15-5b63-66a8-3f02-c95e66d64906",
+          "b": ""
+        },
+        "objGuid": "Guid(17242199231482103878, 18436126667382430905)",
+        "extraType": "Entity",
+        "name": "Backdrop",
+        "rttiType": "SceneObject",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "isHeadBindingRenderRoot": false
+      },
+      {
+        "guid": {
+          "a": "35073bfd-eaa0-d4b1-d740-2b4b9e598078",
+          "b": ""
+        },
+        "objGuid": "Guid(7948744136974534679, 15073302729080426397)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "segBlendMode": "Normal_v2",
+        "segRadius": 0.5,
+        "segSoftness": 0.5,
+        "blendMode": "Normal",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1
+      },
+      {
+        "guid": {
+          "a": "4cc233d6-e448-92dd-5625-97b4d467eede",
+          "b": ""
+        },
+        "objGuid": "Guid(10541933820970403232, 5522993393192627094)",
+        "extraType": "Entity",
+        "name": "Tap Prompt",
+        "rttiType": "SceneObject",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_2D_foreground",
+        "isHeadBindingRenderRoot": false
+      },
+      {
+        "guid": {
+          "a": "89bf31b6-1a19-1efa-4f08-2979773d07c6",
+          "b": ""
+        },
+        "objGuid": "Guid(9241815365387502644, 18426927084389319855)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "alphaNOPM": true,
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "segBlendMode": "Normal_v2",
+        "segRadius": 0.5,
+        "segSoftness": 0.5,
+        "blendMode": "Normal",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1,
+        "texture": "c6cd08eb-12ba-0858-9653-f7109512dbec"
+      },
+      {
+        "guid": {
+          "a": "5d61a0a9-9c13-3e86-40c7-720de94558a3",
+          "b": ""
+        },
+        "objGuid": "Guid(7658937411749979816, 15702501755617683894)",
+        "extraType": "Entity",
+        "name": "Hint Logic",
+        "rttiType": "SceneObject",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "effect_node_post_effect",
+        "isHeadBindingRenderRoot": false
+      },
+      {
+        "guid": {
+          "a": "9d8ef4e2-9924-6c44-ee8a-8096ea55e8be",
+          "b": ""
+        },
+        "objGuid": "Guid(5063518214167312062, 2660902494255362468)",
+        "extraType": "ComponentGraph",
+        "name": "Tap",
+        "rttiType": "JSScriptComponent",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "resItemGuid": "588c9271-b12c-f490-6be5-1633d8d669f7"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

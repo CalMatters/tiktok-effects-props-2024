@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "f3db7af8-ac30-fa1e-2036-3c7d767c84ee",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Flip",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": "",
+    "combinedWithNodeLibary": false
+  }
+]
