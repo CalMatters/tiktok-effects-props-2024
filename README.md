@@ -1,4 +1,4 @@
-# tik-tok-prop-quizzes
+#     tiktok-effects-props-2024
 
 Project files for the 2024 California ballot proposition TikTok quizzes. The TikTok quizzes adapt the 2024 Voter Guide prop quizzes as augmented reality effects, commonly referred to as a "filters". Users tilt their head to answer yes/no/unsure to 1-4 questions to determine their stance on the ballot props. CalMatters published a demo using the Prop 33 quiz: [demo video](https://www.tiktok.com/@calmatters/video/7429809720568925483)
 
