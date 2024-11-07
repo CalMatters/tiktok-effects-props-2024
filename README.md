@@ -83,3 +83,5 @@ TikTok reviews each effect submitted for publication to check for content modera
 # Credits
 
 [Full credits for the CalMatters 2024 Voter Guide](https://calmatters.org/california-voter-guide-2024/#h-credits)
+
+[CalMatters](https://calmatters.org/) is a nonpartisan and nonprofit news organization bringing Californians stories that probe, explain and explore solutions to quality of life issues while holding our leaders accountable. [Learn more about CalMatters](https://calmatters.org/about/)
