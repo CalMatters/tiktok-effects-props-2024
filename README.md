@@ -1,6 +1,6 @@
 # tiktok-effects-props-2024
 
-These TikTok quiz filters adapt the [2024 Voter Guide prop quizzes](https://calmatters.org/california-voter-guide-2024/propositions/) as augmented reality effects, commonly referred to as "filters." Users tilt their heads to answer yes/no/unsure to 1-4 questions to determine their stance on the ballot propositions.
+TikTok quiz filter adaption of the [2024 Voter Guide prop quizzes](https://calmatters.org/california-voter-guide-2024/propositions/) as augmented reality effects, commonly referred to as "filters." Users tilt their heads to answer yes/no/unsure to 1-4 questions to determine their stance on the ballot propositions.
 
 CalMatters published a demo on [how to use the Prop. 33 quiz on Tiktok](https://www.tiktok.com/@calmatters/video/7429809720568925483).
 
@@ -8,7 +8,7 @@ The quizzes are accessible under the :magic_wand: effects tab on the [CalMatters
 
 ![CalMatters TikTok profile page](tiktok-profile-page.png)
 
-The web versions of the proposition quizzes are available at each one's [voter guide webpage](https://calmatters.org/california-voter-guide-2024/propositions/).
+The web version of the quizzes are available at [voter guide webpage](https://calmatters.org/california-voter-guide-2024/propositions/) for each respective proposition.
 
 # Development
 
@@ -35,7 +35,8 @@ Note: Prop. 34 is an exception due to its longer intro card sequence. Changes to
 - Python 3.11.7
     - Custom scripts to generate the TikTok effects from the base template and set assets
 - Effect House 4.6.2
-    - [Effect House](https://effecthouse.tiktok.com/download), TikTok's effect development platform. Quiz effects published using 4.6.2 and future versions may deprecate required features. ([Download previous Effect House versions.](https://effecthouse.tiktok.com/download/previous-versions/))
+    - [Effect House](https://effecthouse.tiktok.com/download) is TikTok's effect development platform
+    - Quiz effects were built and published using 4.6.2 and future versions may deprecate required features. ([Download previous Effect House versions](https://effecthouse.tiktok.com/download/previous-versions/))
 
 ## File structure
 
