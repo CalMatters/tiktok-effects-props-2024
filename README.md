@@ -1,4 +1,4 @@
-#     tiktok-effects-props-2024
+# tiktok-effects-props-2024
 
 These TikTok quiz filters adapt the [2024 Voter Guide prop quizzes](https://calmatters.org/california-voter-guide-2024/propositions/) as augmented reality effects, commonly referred to as "filters." Users tilt their heads to answer yes/no/unsure to 1-4 questions to determine their stance on the ballot propositions.
 
@@ -74,7 +74,7 @@ TikTok moderates each submitted effect submitted for content and performance. It
 ## Effect details
 | Field                                              | Value                                                                                                            |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Effect name (25 characters total)                  | Prop X by CalMatters                                                                                            |
+| Effect name (25 characters total)                  | Prop X by CalMatters                                                                                             |
 | Default sound (optional)                           | None                                                                                                             |
 | Hint (optional)                                    | Tilt head                                                                                                        |
 | Category (optional)                                | Interactive                                                                                                      |
