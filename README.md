@@ -38,28 +38,42 @@ Note: Prop. 34 is an exception due to its longer intro card sequence. Changes to
     - [Effect House](https://effecthouse.tiktok.com/download) is TikTok's effect development platform
     - Quiz effects were built and published using 4.6.2 and future versions may deprecate required features. ([Download previous Effect House versions](https://effecthouse.tiktok.com/download/previous-versions/))
 
-## File structure
 
-### `./effect-template/`
-This is the base template that each effect is built on. Any changes to the core functionality of the effect should be made to this project followed by duplicating the directory for each proposition using `generate_prop_quizzes.py`.
+## Project Structure
 
-### `./assets/propNUMBER/`
-This directory has a subdirectory for each proposition's assets. These assets include the title card, question cards, options, and result cards. Changes to the prop quiz assets should be made in this directory followed by running `set_assets.py` to copy over into the corresponding prop quiz project directories.
+```
+tiktok-effects-props-2024/
+├── effect-template/           # Base template project for all effects
+│   └── effect.ehproj         # Effect House project file
+├── assets/                    # Asset files for all effects
+│   ├── prop2/                # Assets for Proposition 2
+│   ├── prop3/                # Assets for Proposition 3
+│   └── ...                   # Assets for other propositions
+├── prop2/                     # Generated effect project for Prop 2
+├── prop3/                     # Generated effect project for Prop 3
+├── prop34/                    # Special case: Custom effect for Prop 34
+├── icons/                     # Effect icons for TikTok
+├── generate_prop_quizzes.py   # Script to generate prop quiz effects
+├── set_assets.py             # Script to update effect assets
+├── set_icons.py              # Script to update effect icons
+├── get_assets.py             # Script to retrieve effect assets
+├── README.md                 # Project documentation
+├── LICENSE                   # Project license
+└── .gitignore               # Git ignore rules
+```
 
-### `./propNUMBER/`
-Each proposition has a corresponding project directory where the effect can be opened and updated as needed. Prop. 32 and Prop. 34 are the only effects that require changes after `generate_prop_quizzes.py` and `set_assets.py` are run.
+### Key Directories and Files
 
-### `./generate_prop_quizzes.py`
-Creates a duplicate of the `./effect-template/` project template for each prop, except Prop. 34, and sets the number of questions with the corresponding values for each question's options.
-
-### `./set_assets.py`
-Copies and overwrites the asset files in each `./propNUMBER/` effect project directory using the version in the `./assets/` directory.
-
-### `./set_icons.py`
-Copies the prop quiz icons for each effect into their corresponding icon directory.
-
-### `./get_assets.py`
-Copies and overwrites the asset files for each corresponding effect into the `./assets/` directory.
+- **`effect-template/`**: Contains the base Effect House project that serves as a template for all prop quiz effects. Any changes to core functionality should be made here.
+- **`assets/`**: Stores all visual assets (images, cards, etc.) for each proposition. Each prop has its own subdirectory.
+- **`propNUMBER/`**: Generated effect projects for each proposition. These are created by `generate_prop_quizzes.py` and contain the actual Effect House projects.
+- **`prop34/`**: Special case directory for Proposition 34, which has a custom intro sequence and requires manual modifications.
+- **`icons/`**: Contains the TikTok effect icons for each proposition.
+- **Scripts**:
+  - `generate_prop_quizzes.py`: Creates new effect projects from the template
+  - `set_assets.py`: Updates assets in effect projects
+  - `set_icons.py`: Updates effect icons
+  - `get_assets.py`: Retrieves assets from effect projects
 
 # Deployment
 
